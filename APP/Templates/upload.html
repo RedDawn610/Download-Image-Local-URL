@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Image via URL</title>
+</head>
+<body>
+    <h1>Download Image via URL</h1>
+    <form method="post">
+        <input type="text" name="image_url" placeholder="Enter image URL" required>
+        <input type="submit" value="Download">
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>
