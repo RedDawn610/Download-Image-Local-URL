@@ -75,4 +75,3 @@ Notes
     To stop the application, use the CTRL+C key combination in the terminal.
     To exit the virtual environment, use the deactivate command.
 
-With this guide, you should be able to successfully set up and start using the application. Happy coding!
