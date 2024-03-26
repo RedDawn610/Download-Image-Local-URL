@@ -29,16 +29,6 @@ Installation Steps
     Installing Python:
     To check if Python is already installed, type python --version in your terminal or command prompt. If it's not installed, download and install Python from the official Python website.
 
-    Creating a Virtual Environment (Optional but Recommended):
-    Create a virtual environment to isolate your project dependencies. Enter the following command:
-
-python -m venv flask_env
-
-Activate the virtual environment:
-
-    On Windows: flask_env\Scripts\activate
-    On macOS/Linux: source flask_env/bin/activate
-
 Installing Required Packages:
 Install the necessary Python packages by running the following command:
 
@@ -73,5 +63,4 @@ Usage
 Notes
 
     To stop the application, use the CTRL+C key combination in the terminal.
-    To exit the virtual environment, use the deactivate command.
 
